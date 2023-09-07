@@ -1,0 +1,21 @@
+div{
+    height: 300px;
+    width: 300px;
+    background-color: blueviolet;
+    position: absolute;
+    top:20%;
+    left: 20%;
+    /* transform: rotate(-75deg); */
+    /* transform: scale(.6,.9); */
+    /* transform: translate(100%,10%); */
+    /* transition: ease-in-out; */
+    /* transition: height 1s ease-in-out; */
+    /* transition: all ease-in-out 0.9s; */
+    /* transform: translate(50px,-20px); */
+    /* transform: rotate3d(1,0,0,45deg); */
+    transform: scale(2,2,2);
+}
+/* div:hover{
+    height: 400px;
+    width: 400px;
+} */

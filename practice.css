@@ -1,0 +1,11 @@
+#div1{
+height: 200px;
+width: 200px;
+background-color: brown;
+}
+#div2{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    transform: translateY(100px);
+}

@@ -1,0 +1,44 @@
+#style::first-line{
+font-size: 2rem;
+font-weight: bold;
+text-transform: capitalize;
+}
+p{
+    background-color: cyan;
+}
+p::before{
+    content: 'before';
+    font-size: 2rem;
+font-weight: bold;
+text-transform: capitalize;
+}
+ul{
+    list-style: none;
+}
+li::before{
+    content: '';
+    background-image: url(https://blog.hubspot.com/hubfs/image8-2.jpg);
+    display: inline-block;
+    height: 20px;
+    width: 30px;
+    background-size: contain;
+    
+}
+p::after{
+    content: '';
+    font-size: 1.5rem;
+font-weight: bold;
+text-transform: capitalize;
+display: inline-block;
+height: 20px;
+width: 40px;
+background-image: url(https://blog.hubspot.com/hubfs/image8-2.jpg);
+background-repeat: no-repeat;
+background-size: contain;
+}
+/* p::after{
+    content: 'after';
+    font-size: 2rem;
+font-weight: bold;
+text-transform: capitalize;
+} */

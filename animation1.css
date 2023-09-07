@@ -1,0 +1,15 @@
+div{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    background-color: lightblue;
+    transition: 1s steps(5,end);
+}
+div:hover{
+    height: 150px;
+    width: 150px;
+    background-color: yellow;
+    border-radius: 50%;
+}

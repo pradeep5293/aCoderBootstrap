@@ -1,0 +1,10 @@
+/* div {
+    height: 150px;
+    width: 200px;
+    background-image: linear-gradient(red, yellow, green 100%);
+} */
+div {
+    height: 150px;
+    width: 300px;
+    background-image: repeating-linear-gradient(45deg, #9e6df9, #f77656 25%, #5ffc87 50%);
+}
